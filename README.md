@@ -2,7 +2,7 @@
 
 /*--------------------------------
 
-Monster Icon Font Web Font
+Monster Icon Font Web Pack  -  Used for all Monster Group Web Sites
 
     Generated using the following:
 
@@ -10,10 +10,6 @@ Monster Icon Font Web Font
         https://fontawesome.com/changelog/latest
 
     - Nucleo Icon Organizer & Icon Library 
-        https://nucleoapp.com/
-
-    - SVG Icon Font generator
-        http://nfroidure.github.io/svgiconfont/
-
+        https://nucleoapp.com/ 
 
 -------------------------------- */
