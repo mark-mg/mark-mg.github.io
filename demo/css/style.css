@@ -1,0 +1,308 @@
+/*--------------------------------
+
+Monster Icon Font Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Monster Icon Font';
+  src: url('../../fonts/Monster Icon Font.eot');
+  src: url('../../fonts/Monster Icon Font.eot') format('embedded-opentype'), url('../../fonts/Monster Icon Font.woff2') format('woff2'), url('../../fonts/Monster Icon Font.woff') format('woff'), url('../../fonts/Monster Icon Font.ttf') format('truetype'), url('../../fonts/Monster Icon Font.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+a {
+  color: #608CEE;
+  text-decoration: none;
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+header {
+  text-align: center;
+  padding: 80px 0 48px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+  border-radius: .25em;
+  transition: background 0.2s;
+  user-select: none;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+}
+
+ul li:hover {
+  background: #f8f8f8;
+}
+
+ul p, ul em, ul input {
+  display: block;
+  font-size: 1.1rem;
+  color: rgba(0,0,0,0.6);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  max-width: 11rem;
+}
+
+ul p {
+  padding: 10px 0;
+}
+
+ul p::selection, ul em::selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul p::-moz-selection, ul em::-moz-selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul em {
+  margin-bottom: 8px;
+}
+
+ul em::before {
+  content: '[';
+}
+ul em::after {
+  content: ']';
+}
+
+ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/* --------------------------------
+
+icons
+
+-------------------------------- */
+.icon {
+  display: inline-block;
+  font: normal normal normal 32px/1 'Monster Icon Font';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  font icons
+-------------------------*/
+
+.mg-facebook-f::before {
+    content: "\ea02";
+}
+
+.mg-youtube::before {
+    content: "\ea03";
+}
+
+.mg-twitter::before {
+    content: "\ea04";
+}
+
+.mg-linkedin-in::before {
+    content: "\ea05";
+}
+
+.mg-google-plus-g::before {
+    content: "\ea06";
+}
+
+.mg-phone::before {
+    content: "\ea07";
+}
+
+.mg-hand-holding-usd::before {
+    content: "\ea08";
+}
+
+.mg-caret-up::before {
+    content: "\ea09";
+}
+
+.mg-caret-down::before {
+    content: "\ea0a";
+}
+
+.mg-check-circle::before {
+    content: "\ea0b";
+}
+
+.mg-check::before {
+    content: "\ea0c";
+}
+
+.mg-circle-notch::before {
+    content: "\ea0d";
+}
+
+.mg-calendar-alt::before {
+    content: "\ea0e";
+}
+
+.mg-bolt::before {
+    content: "\ea0f";
+}
+
+.mg-building::before {
+    content: "\ea10";
+}
+
+.mg-quote-right::before {
+    content: "\ea11";
+}
+
+.mg-quote-left::before {
+    content: "\ea12";
+}
+
+.mg-paper-plane::before {
+    content: "\ea13";
+}
+
+.mg-hand-point-right::before {
+    content: "\ea14";
+}
+
+.mg-calculator::before {
+    content: "\ea15";
+}
+
+.mg-home::before {
+    content: "\ea16";
+}
+
+.mg-shield-check::before {
+    content: "\ea17";
+}
+
+.mg-stopwatch::before {
+    content: "\ea18";
+}
+
+.mg-sync::before {
+    content: "\ea19";
+}
+
+.mg-clock::before {
+    content: "\ea1a";
+}
+
+.mg-times::before {
+    content: "\ea1b";
+}
+
+.mg-angle-up::before {
+    content: "\ea1c";
+}
+
+.mg-angle-down::before {
+    content: "\ea1d";
+}
+
+.mg-quote-left-2::before {
+    content: "\ea1e";
+}
+
+.mg-quote-right-2::before {
+    content: "\ea1f";
+}
+
+.mg-caret-down-2::before {
+    content: "\ea20";
+}
+
+.mg-caret-up-2::before {
+    content: "\ea21";
+}
+
+.mg-circle::before {
+    content: "\ea22";
+}
+
+.mg-phone-2::before {
+    content: "\ea23";
+}
+
+.mg-rates-gas-w::before {
+    content: "\ea24";
+}
+
+.mg-rates-electricity-w::before {
+    content: "\ea25";
+}
+
+.mg-rates-gas::before {
+    content: "\ea26";
+}
+
+.mg-rates-electricity::before {
+    content: "\ea27";
+}
+
+.mg-bars::before {
+    content: "\ea28";
+}
+
+.mg-times-circle::before {
+    content: "\ea29";
+}
+

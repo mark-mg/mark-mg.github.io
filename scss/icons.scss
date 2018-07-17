@@ -1,0 +1,208 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$mg-facebook-f: unicode(ea02);
+$mg-youtube: unicode(ea03);
+$mg-twitter: unicode(ea04);
+$mg-linkedin-in: unicode(ea05);
+$mg-google-plus-g: unicode(ea06);
+$mg-phone: unicode(ea07);
+$mg-hand-holding-usd: unicode(ea08);
+$mg-caret-up: unicode(ea09);
+$mg-caret-down: unicode(ea0a);
+$mg-check-circle: unicode(ea0b);
+$mg-check: unicode(ea0c);
+$mg-circle-notch: unicode(ea0d);
+$mg-calendar-alt: unicode(ea0e);
+$mg-bolt: unicode(ea0f);
+$mg-building: unicode(ea10);
+$mg-quote-right: unicode(ea11);
+$mg-quote-left: unicode(ea12);
+$mg-paper-plane: unicode(ea13);
+$mg-hand-point-right: unicode(ea14);
+$mg-calculator: unicode(ea15);
+$mg-home: unicode(ea16);
+$mg-shield-check: unicode(ea17);
+$mg-stopwatch: unicode(ea18);
+$mg-sync: unicode(ea19);
+$mg-clock: unicode(ea1a);
+$mg-times: unicode(ea1b);
+$mg-angle-up: unicode(ea1c);
+$mg-angle-down: unicode(ea1d);
+$mg-quote-left-2: unicode(ea1e);
+$mg-quote-right-2: unicode(ea1f);
+$mg-caret-down-2: unicode(ea20);
+$mg-caret-up-2: unicode(ea21);
+$mg-circle: unicode(ea22);
+$mg-phone-2: unicode(ea23);
+$mg-rates-gas-w: unicode(ea24);
+$mg-rates-electricity-w: unicode(ea25);
+$mg-rates-gas: unicode(ea26);
+$mg-rates-electricity: unicode(ea27);
+$mg-bars: unicode(ea28);
+$mg-times-circle: unicode(ea29);
+
+.mg-facebook-f::before {
+  content: $mg-facebook-f;
+}
+
+.mg-youtube::before {
+  content: $mg-youtube;
+}
+
+.mg-twitter::before {
+  content: $mg-twitter;
+}
+
+.mg-linkedin-in::before {
+  content: $mg-linkedin-in;
+}
+
+.mg-google-plus-g::before {
+  content: $mg-google-plus-g;
+}
+
+.mg-phone::before {
+  content: $mg-phone;
+}
+
+.mg-hand-holding-usd::before {
+  content: $mg-hand-holding-usd;
+}
+
+.mg-caret-up::before {
+  content: $mg-caret-up;
+}
+
+.mg-caret-down::before {
+  content: $mg-caret-down;
+}
+
+.mg-check-circle::before {
+  content: $mg-check-circle;
+}
+
+.mg-check::before {
+  content: $mg-check;
+}
+
+.mg-circle-notch::before {
+  content: $mg-circle-notch;
+}
+
+.mg-calendar-alt::before {
+  content: $mg-calendar-alt;
+}
+
+.mg-bolt::before {
+  content: $mg-bolt;
+}
+
+.mg-building::before {
+  content: $mg-building;
+}
+
+.mg-quote-right::before {
+  content: $mg-quote-right;
+}
+
+.mg-quote-left::before {
+  content: $mg-quote-left;
+}
+
+.mg-paper-plane::before {
+  content: $mg-paper-plane;
+}
+
+.mg-hand-point-right::before {
+  content: $mg-hand-point-right;
+}
+
+.mg-calculator::before {
+  content: $mg-calculator;
+}
+
+.mg-home::before {
+  content: $mg-home;
+}
+
+.mg-shield-check::before {
+  content: $mg-shield-check;
+}
+
+.mg-stopwatch::before {
+  content: $mg-stopwatch;
+}
+
+.mg-sync::before {
+  content: $mg-sync;
+}
+
+.mg-clock::before {
+  content: $mg-clock;
+}
+
+.mg-times::before {
+  content: $mg-times;
+}
+
+.mg-angle-up::before {
+  content: $mg-angle-up;
+}
+
+.mg-angle-down::before {
+  content: $mg-angle-down;
+}
+
+.mg-quote-left-2::before {
+  content: $mg-quote-left-2;
+}
+
+.mg-quote-right-2::before {
+  content: $mg-quote-right-2;
+}
+
+.mg-caret-down-2::before {
+  content: $mg-caret-down-2;
+}
+
+.mg-caret-up-2::before {
+  content: $mg-caret-up-2;
+}
+
+.mg-circle::before {
+  content: $mg-circle;
+}
+
+.mg-phone-2::before {
+  content: $mg-phone-2;
+}
+
+.mg-rates-gas-w::before {
+  content: $mg-rates-gas-w;
+}
+
+.mg-rates-electricity-w::before {
+  content: $mg-rates-electricity-w;
+}
+
+.mg-rates-gas::before {
+  content: $mg-rates-gas;
+}
+
+.mg-rates-electricity::before {
+  content: $mg-rates-electricity;
+}
+
+.mg-bars::before {
+  content: $mg-bars;
+}
+
+.mg-times-circle::before {
+  content: $mg-times-circle;
+}
+
