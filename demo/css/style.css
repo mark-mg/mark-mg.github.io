@@ -11,342 +11,121 @@ Generated using nucleoapp.com
   font-weight: normal;
   font-style: normal;
 }
+
 /* --------------------------------
 
 Primary style
 
 -------------------------------- */
 *, *::after, *::before {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-size: 1.6rem;
-    font-family: sans-serif;
-    color: #333333;
-    background: white;
-  }
-  
-  a {
-    color: #608CEE;
-    text-decoration: none;
-  }
-  
-  /* --------------------------------
-  
-  Main components
-  
-  -------------------------------- */
-  header {
-    text-align: center;
-    padding: 80px 0 48px;
-  }
-  
-  header h1 {
-    font-size: 2.8rem;
-  }
-  
-  header p {
-    font-size: 1.4rem;
-    margin-top: 1em;
-  }
-  
-  header a:hover {
-    text-decoration: underline;
-  }
-  
-  ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-  
-  ul li {
-    border-radius: .25em;
-    transition: background 0.2s;
-    user-select: none;
-    overflow: hidden;
-    text-align: center;
-    padding: 1em;
-  }
-  
-  ul li:hover {
-    background: #f8f8f8;
-  }
-  
-  ul p, ul em, ul input {
-    display: block;
-    font-size: 1.1rem;
-    color: rgba(0,0,0,0.6);
-    -webkit-user-select: auto;
-    -moz-user-select: auto;
-    -ms-user-select: auto;
-    user-select: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    cursor: pointer;
-    max-width: 11rem;
-  }
-  
-  ul p {
-    padding: 10px 0;
-  }
-  
-  ul p::selection, ul em::selection {
-    background: #608CEE;
-    color: #fff;
-  }
-  
-  ul p::-moz-selection, ul em::-moz-selection {
-    background: #608CEE;
-    color: #fff;
-  }
-  
-  ul em {
-    margin-bottom: 8px;
-  }
-  
-  ul em::before {
-    content: '[';
-  }
-  ul em::after {
-    content: ']';
-  }
-  
-  ul input {
-    text-align: center;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    outline: none;
-  }
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+a {
+  color: #608CEE;
+  text-decoration: none;
+}
 
 /* --------------------------------
 
-Primary style
+Main components
 
 -------------------------------- */
-.mg-lg {
-    font-size: 1.33333em;
-    line-height: 0.75em;
-    vertical-align: -.0667em;
+header {
+  text-align: center;
+  padding: 80px 0 48px;
 }
 
-.mg-xs {
-    font-size: .75em;
+header h1 {
+  font-size: 2.8rem;
 }
 
-.mg-sm {
-    font-size: .875em;
+header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
 }
 
-.mg-1x {
-    font-size: 1em;
+header a:hover {
+  text-decoration: underline;
 }
 
-.mg-2x {
-    font-size: 2em;
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.mg-3x {
-    font-size: 3em;
+ul li {
+  border-radius: .25em;
+  transition: background 0.2s;
+  user-select: none;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
 }
 
-.mg-4x {
-    font-size: 4em;
+ul li:hover {
+  background: #f8f8f8;
 }
 
-.mg-5x {
-    font-size: 5em;
+ul p, ul em, ul input {
+  display: block;
+  font-size: 1.1rem;
+  color: rgba(0,0,0,0.6);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  max-width: 11rem;
 }
 
-.mg-6x {
-    font-size: 6em;
+ul p {
+  padding: 10px 0;
 }
 
-.mg-7x {
-    font-size: 7em;
+ul p::selection, ul em::selection {
+  background: #608CEE;
+  color: #fff;
 }
 
-.mg-8x {
-    font-size: 8em;
+ul p::-moz-selection, ul em::-moz-selection {
+  background: #608CEE;
+  color: #fff;
 }
 
-.mg-9x {
-    font-size: 9em;
+ul em {
+  margin-bottom: 8px;
 }
 
-.mg-10x {
-    font-size: 10em;
+ul em::before {
+  content: '[';
+}
+ul em::after {
+  content: ']';
 }
 
-.mg-fw {
-    text-align: center;
-    width: 1.25em;
+ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
-
-.mg-ul {
-    list-style-type: none;
-    margin-left: 2.5em;
-    padding-left: 0;
-}
-
-.mg-ul>li {
-    position: relative;
-}
-
-.mg-li {
-    left: -2em;
-    position: absolute;
-    text-align: center;
-    width: 2em;
-    line-height: inherit;
-}
-
-.mg-border {
-    border: solid 0.08em #eee;
-    border-radius: .1em;
-    padding: .2em .25em .15em;
-}
-
-.mg-pull-left {
-    float: left;
-}
-
-.mg-pull-right {
-    float: right;
-}
-
-.fa.mg-pull-left,
-.fas.mg-pull-left,
-.far.mg-pull-left,
-.fal.mg-pull-left,
-.fab.mg-pull-left {
-    margin-right: .3em;
-}
-
-.fa.mg-pull-right,
-.fas.mg-pull-right,
-.far.mg-pull-right,
-.fal.mg-pull-right,
-.fab.mg-pull-right {
-    margin-left: .3em;
-}
-
-.mg-spin {
-    -webkit-animation: fa-spin 2s infinite linear;
-    animation: fa-spin 2s infinite linear;
-}
-
-.mg-pulse {
-    -webkit-animation: fa-spin 1s infinite steps(8);
-    animation: fa-spin 1s infinite steps(8);
-}
-
-@-webkit-keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-.mg-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.mg-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-.mg-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
-
-.mg-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    -webkit-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-}
-
-.mg-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-    -webkit-transform: scale(1, -1);
-    transform: scale(1, -1);
-}
-
-.mg-flip-horizontal.mg-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-    -webkit-transform: scale(-1, -1);
-    transform: scale(-1, -1);
-}
-
-:root .mg-rotate-90,
-:root .mg-rotate-180,
-:root .mg-rotate-270,
-:root .mg-flip-horizontal,
-:root .mg-flip-vertical {
-    -webkit-filter: none;
-    filter: none;
-}
-
-.mg-stack {
-    display: inline-block;
-    height: 2em;
-    line-height: 2em;
-    position: relative;
-    vertical-align: middle;
-    width: 2em;
-}
-
-.mg-stack-1x,
-.mg-stack-2x {
-    left: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
-
-.mg-stack-1x {
-    line-height: inherit;
-}
-
-.mg-stack-2x {
-    font-size: 2em;
-}
-
-.mg-inverse {
-    color: #fff;
-}
-
- 
 
 /* --------------------------------
 
@@ -368,754 +147,518 @@ icons
 -------------------------*/
 
 .mg-angle-down::before {
-    content: "\ea03";
-}
-
-.mg-angle-left-solid::before {
-    content: "\ea01";
-}
-
-.mg-angle-right-solid::before {
     content: "\ea02";
 }
 
 .mg-angle-up::before {
-    content: "\ea04";
-}
-
-.mg-arrow-new::before {
-    content: "\ea05";
-}
-
-.mg-arrow-right::before {
-    content: "\ea06";
-}
-
-.mg-arrow-shape-1::before {
-    content: "\ea07";
-}
-
-.mg-arrow-shape-2::before {
-    content: "\ea08";
-}
-
-.mg-arrow-shape-3::before {
-    content: "\ea09";
-}
-
-.mg-arrow-shape-4::before {
-    content: "\ea0a";
-}
-
-.mg-arrow-shape-5::before {
-    content: "\ea0b";
-}
-
-.mg-bars::before {
-    content: "\ea0c";
-}
-
-.mg-baseball-ball-light::before {
-    content: "\ea0d";
-}
-
-.mg-baseball-ball-solid::before {
-    content: "\ea0e";
-}
-
-.mg-basketball-ball-light::before {
-    content: "\ea0f";
-}
-
-.mg-basketball-ball-solid::before {
-    content: "\ea10";
-}
-
-.mg-basketball-hoop-light::before {
-    content: "\ea11";
-}
-
-.mg-basketball-hoop-solid::before {
-    content: "\ea12";
-}
-
-.mg-blue-monster-icon::before {
-    content: "\ea13";
-}
-
-.mg-bolt::before {
-    content: "\ea14";
-}
-
-.mg-bowling-ball-light::before {
-    content: "\ea15";
-}
-
-.mg-bowling-ball-solid::before {
-    content: "\ea16";
-}
-
-.mg-building::before {
-    content: "\ea17";
-}
-
-.mg-bulb::before {
-    content: "\ea18";
+    content: "\ea03";
 }
 
 .mg-calculator::before {
-    content: "\ea19";
-}
-
-.mg-calendar-60::before {
-    content: "\ea1a";
+    content: "\ea04";
 }
 
 .mg-calendar-alt::before {
-    content: "\ea1b";
-}
-
-.mg-calendar-blue::before {
-    content: "\ea1c";
-}
-
-.mg-car-alt-light::before {
-    content: "\ea1d";
-}
-
-.mg-car-alt-solid::before {
-    content: "\ea1e";
-}
-
-.mg-car-light::before {
-    content: "\ea1f";
-}
-
-.mg-car-side-light::before {
-    content: "\ea20";
-}
-
-.mg-car-side-solid::before {
-    content: "\ea21";
-}
-
-.mg-car-solid::before {
-    content: "\ea22";
+    content: "\ea05";
 }
 
 .mg-caret-down-2::before {
-    content: "\ea23";
+    content: "\ea06";
 }
 
 .mg-caret-down::before {
-    content: "\ea24";
+    content: "\ea07";
 }
 
 .mg-caret-up-2::before {
-    content: "\ea25";
+    content: "\ea08";
 }
 
 .mg-caret-up::before {
-    content: "\ea26";
-}
-
-.mg-check-circle-07::before {
-    content: "\ea27";
-}
-
-.mg-check-circle-light::before {
-    content: "\ea28";
-}
-
-.mg-check-circle-solid::before {
-    content: "\ea29";
+    content: "\ea09";
 }
 
 .mg-check-circle::before {
-    content: "\ea2a";
-}
-
-.mg-check-square-light::before {
-    content: "\ea2b";
-}
-
-.mg-check-square-solid::before {
-    content: "\ea2c";
+    content: "\ea0a";
 }
 
 .mg-check::before {
-    content: "\ea2d";
+    content: "\ea0b";
 }
 
-.mg-chevron-circle-down-light::before {
-    content: "\ea2e";
-}
-
-.mg-chevron-circle-down-solid::before {
-    content: "\ea2f";
-}
-
-.mg-chevron-circle-left-light::before {
-    content: "\ea30";
-}
-
-.mg-chevron-circle-left-solid::before {
-    content: "\ea31";
-}
-
-.mg-chevron-circle-right-light::before {
-    content: "\ea32";
-}
-
-.mg-chevron-circle-right-solid::before {
-    content: "\ea33";
+.mg-bolt::before {
+    content: "\ea0c";
 }
 
 .mg-circle-notch::before {
-    content: "\ea34";
-}
-
-.mg-circle-regular::before {
-    content: "\ea35";
-}
-
-.mg-circle-solid::before {
-    content: "\ea36";
-}
-
-.mg-circle::before {
-    content: "\ea37";
-}
-
-.mg-clock-2::before {
-    content: "\ea38";
-}
-
-.mg-clock-light::before {
-    content: "\ea39";
-}
-
-.mg-clock::before {
-    content: "\ea3a";
-}
-
-.mg-coins-light::before {
-    content: "\ea3b";
-}
-
-.mg-comment-alt-light::before {
-    content: "\ea3c";
-}
-
-.mg-comment-alt-solid::before {
-    content: "\ea3d";
-}
-
-.mg-comment-light::before {
-    content: "\ea3e";
-}
-
-.mg-comment-solid::before {
-    content: "\ea3f";
-}
-
-.mg-comments-light::before {
-    content: "\ea40";
-}
-
-.mg-comments-solid::before {
-    content: "\ea41";
-}
-
-.mg-compare-icon-2::before {
-    content: "\ea42";
-}
-
-.mg-compare-icon::before {
-    content: "\ea43";
-}
-
-.mg-connection-monster::before {
-    content: "\ea44";
-}
-
-.mg-cricket-light::before {
-    content: "\ea45";
-}
-
-.mg-cricket-solid::before {
-    content: "\ea46";
-}
-
-.mg-dashboard-level::before {
-    content: "\ea47";
-}
-
-.mg-deal-white::before {
-    content: "\ea48";
-}
-
-.mg-deal::before {
-    content: "\ea49";
-}
-
-.mg-electricity-monster::before {
-    content: "\ea4a";
-}
-
-.mg-facebook-f::before {
-    content: "\ea4b";
-}
-
-.mg-football-ball-light::before {
-    content: "\ea4c";
-}
-
-.mg-football-ball-solid::before {
-    content: "\ea4d";
-}
-
-.mg-futbol-light::before {
-    content: "\ea4f";
-}
-
-.mg-futbol-solid::before {
-    content: "\ea4e";
-}
-
-.mg-google-plus-g::before {
-    content: "\ea50";
+    content: "\ea0f";
 }
 
 .mg-hand-holding-usd::before {
-    content: "\ea51";
+    content: "\ea11";
 }
 
-.mg-hand-point-right::before {
-    content: "\ea52";
+.mg-facebook::before {
+    content: "\ea12";
 }
 
-.mg-handshake-light::before {
-    content: "\ea53";
+.mg-google-plus::before {
+    content: "\ea13";
 }
 
-.mg-handshake-solid::before {
-    content: "\ea54";
-}
-
-.mg-home::before {
-    content: "\ea55";
-}
-
-.mg-homeloan-monster::before {
-    content: "\ea56";
-}
-
-.mg-icon-1::before {
-    content: "\ea57";
-}
-
-.mg-icon-2::before {
-    content: "\ea58";
-}
-
-.mg-icon-3::before {
-    content: "\ea59";
-}
-
-.mg-icon-4::before {
-    content: "\ea5a";
-}
-
-.mg-icon-5::before {
-    content: "\ea5b";
-}
-
-.mg-icon-big-circle-shadow::before {
-    content: "\ea5c";
-}
-
-.mg-icon-bullet-nav::before {
-    content: "\ea5d";
-}
-
-.mg-icon-business::before {
-    content: "\ea5e";
-}
-
-.mg-icon-electricity-blue-2::before {
-    content: "\ea5f";
-}
-
-.mg-icon-electricity-blue::before {
-    content: "\ea60";
-}
-
-.mg-icon-electricity::before {
-    content: "\ea61";
-}
-
-.mg-icon-energy-white-filled::before {
-    content: "\ea62";
-}
-
-.mg-icon-energy-white::before {
-    content: "\ea63";
-}
-
-.mg-icon-faq-minus::before {
-    content: "\ea64";
-}
-
-.mg-icon-faq-plus::before {
-    content: "\ea65";
-}
-
-.mg-icon-gas-orange-2::before {
-    content: "\ea66";
-}
-
-.mg-icon-gas-orange::before {
-    content: "\ea67";
-}
-
-.mg-icon-gas::before {
-    content: "\ea68";
-}
-
-.mg-icon-new-connection::before {
-    content: "\ea69";
-}
-
-.mg-icon-phone-2::before {
-    content: "\ea6a";
-}
-
-.mg-icon-phone-header-fixed::before {
-    content: "\ea6b";
-}
-
-.mg-icon-phone-marron::before {
-    content: "\ea6c";
-}
-
-.mg-icon-phone-white::before {
-    content: "\ea6d";
-}
-
-.mg-icon-phone::before {
-    content: "\ea6e";
-}
-
-.mg-icon-quote-testimonial::before {
-    content: "\ea6f";
-}
-
-.mg-icon-residential::before {
-    content: "\ea70";
-}
-
-.mg-icon-tick-black::before {
-    content: "\ea71";
-}
-
-.mg-icon-tick-blue-bg::before {
-    content: "\ea72";
-}
-
-.mg-icon-tick-green-bg::before {
-    content: "\ea73";
-}
-
-.mg-icon-tick-white-filled::before {
-    content: "\ea74";
-}
-
-.mg-icon-tick-white::before {
-    content: "\ea75";
-}
-
-.mg-icon-tick::before {
-    content: "\ea76";
-}
-
-.mg-icon-time-clock::before {
-    content: "\ea77";
-}
-
-.mg-icon-trustpilot-2::before {
-    content: "\ea78";
-}
-
-.mg-icon-trustpilot-5-stars::before {
-    content: "\ea79";
-}
-
-.mg-icon-trustpilot-star-2::before {
-    content: "\ea7a";
-}
-
-.mg-icon-trustpilot-star::before {
-    content: "\ea7b";
-}
-
-.mg-icon-trustpilot::before {
-    content: "\ea7c";
-}
-
-.mg-internet-monster::before {
-    content: "\ea7d";
-}
-
-.mg-light::before {
-    content: "\ea7e";
-}
-
-.mg-lightbulb-light::before {
-    content: "\ea7f";
-}
-
-.mg-linkedin-in::before {
-    content: "\ea80";
-}
-
-.mg-message::before {
-    content: "\ea81";
-}
-
-.mg-meter::before {
-    content: "\ea82";
-}
-
-.mg-minus-circle-light::before {
-    content: "\ea83";
-}
-
-.mg-minus-circle-solid::before {
-    content: "\ea84";
-}
-
-.mg-monkey-wrench::before {
-    content: "\ea85";
-}
-
-.mg-monster-icon-drop-shadow::before {
-    content: "\ea86";
-}
-
-.mg-monster-icon::before {
-    content: "\ea87";
-}
-
-.mg-monster-white-storck-icon::before {
-    content: "\ea88";
-}
-
-.mg-monster::before {
-    content: "\ea89";
+.mg-bars::before {
+    content: "\ea14";
 }
 
 .mg-paper-plane::before {
-    content: "\ea8a";
-}
-
-.mg-phone-2::before {
-    content: "\ea8b";
-}
-
-.mg-phone-solid::before {
-    content: "\ea8c";
-}
-
-.mg-phone::before {
-    content: "\ea8d";
-}
-
-.mg-plus-circle-light::before {
-    content: "\ea8e";
-}
-
-.mg-plus-circle-solid::before {
-    content: "\ea8f";
-}
-
-.mg-pointer::before {
-    content: "\ea90";
+    content: "\ea15";
 }
 
 .mg-quote-left-2::before {
-    content: "\ea91";
+    content: "\ea18";
 }
 
 .mg-quote-left::before {
-    content: "\ea92";
+    content: "\ea19";
 }
 
 .mg-quote-right-2::before {
-    content: "\ea93";
+    content: "\ea1a";
 }
 
 .mg-quote-right::before {
-    content: "\ea94";
+    content: "\ea1b";
 }
 
-.mg-rates-electricity-w::before {
-    content: "\ea95";
-}
-
-.mg-rates-electricity::before {
-    content: "\ea96";
-}
-
-.mg-rates-gas-w::before {
-    content: "\ea97";
-}
-
-.mg-rates-gas::before {
-    content: "\ea98";
-}
-
-.mg-scustom-after::before {
-    content: "\ea99";
-}
-
-.mg-scustom-before::before {
-    content: "\ea9a";
-}
-
-.mg-security::before {
-    content: "\ea9b";
-}
-
-.mg-shield-check-light::before {
-    content: "\ea9c";
+.mg-electricity::before {
+    content: "\ea1c";
 }
 
 .mg-shield-check::before {
-    content: "\ea9d";
-}
-
-.mg-solar-panel-solid::before {
-    content: "\ea9e";
-}
-
-.mg-solor-monster::before {
-    content: "\ea9f";
-}
-
-.mg-spinner-solid::before {
-    content: "\eaa0";
-}
-
-.mg-star-half-alt-solid::before {
-    content: "\eaa1";
-}
-
-.mg-star-light::before {
-    content: "\eaa2";
-}
-
-.mg-star-regular::before {
-    content: "\eaa3";
-}
-
-.mg-star-solid::before {
-    content: "\eaa4";
-}
-
-.mg-step-01-enter-details::before {
-    content: "\eaa5";
-}
-
-.mg-step-02-download-quote::before {
-    content: "\eaa6";
-}
-
-.mg-step-03-compare::before {
-    content: "\eaa7";
-}
-
-.mg-step-04-call-us::before {
-    content: "\eaa8";
+    content: "\ea20";
 }
 
 .mg-stopwatch::before {
-    content: "\eaa9";
-}
-
-.mg-street-view-light::before {
-    content: "\eaaa";
-}
-
-.mg-street-view-solid::before {
-    content: "\eaab";
+    content: "\ea21";
 }
 
 .mg-sync::before {
-    content: "\eaac";
-}
-
-.mg-tachometer-alt-light::before {
-    content: "\eaad";
-}
-
-.mg-tax-monster::before {
-    content: "\eaae";
-}
-
-.mg-tennis-ball-light::before {
-    content: "\eaaf";
-}
-
-.mg-tennis-ball-solid::before {
-    content: "\eab0";
-}
-
-.mg-ticket-alt-light::before {
-    content: "\eab1";
-}
-
-.mg-ticket-alt-solid::before {
-    content: "\eab2";
-}
-
-.mg-times-circle-light::before {
-    content: "\eab3";
-}
-
-.mg-times-circle-solid::before {
-    content: "\eab6";
+    content: "\ea22";
 }
 
 .mg-times-circle::before {
-    content: "\eab4";
+    content: "\ea23";
 }
 
 .mg-times::before {
-    content: "\eab5";
-}
-
-.mg-tv-retro-light::before {
-    content: "\eab7";
-}
-
-.mg-tv-retro-solid::before {
-    content: "\eab8";
+    content: "\ea24";
 }
 
 .mg-twitter::before {
-    content: "\eab9";
+    content: "\ea25";
 }
 
-.mg-volleyball-ball-light::before {
-    content: "\eaba";
+.mg-linkedin-in::before {
+    content: "\ea26";
 }
 
-.mg-volleyball-ball-solid::before {
-    content: "\eabb";
+.mg-hand-point-right::before {
+    content: "\ea27";
 }
 
 .mg-youtube::before {
+    content: "\ea29";
+}
+
+.mg-EM-Logo::before {
+    content: "\ea2e";
+}
+
+.mg-bulb::before {
+    content: "\ea2f";
+}
+
+.mg-timer::before {
+    content: "\ea31";
+}
+
+.mg-coins::before {
+    content: "\ea34";
+}
+
+.mg-phone-1::before {
+    content: "\ea38";
+}
+
+.mg-ok::before {
+    content: "\ea39";
+}
+
+.mg-people::before {
+    content: "\ea3a";
+}
+
+.mg-house::before {
+    content: "\ea3c";
+}
+
+.mg-wifi::before {
+    content: "\ea3e";
+}
+
+.mg-tick::before {
+    content: "\ea4f";
+}
+
+.mg-security::before {
+    content: "\ea5c";
+}
+
+.mg-solar-panel::before {
+    content: "\ea5d";
+}
+
+.mg-calendar-check::before {
+    content: "\ea63";
+}
+
+.mg-arrows::before {
+    content: "\ea64";
+}
+
+.mg-compare-alt::before {
+    content: "\ea65";
+}
+
+.mg-clock-alt::before {
+    content: "\ea68";
+}
+
+.mg-business::before {
+    content: "\ea69";
+}
+
+.mg-residential::before {
+    content: "\ea6a";
+}
+
+.mg-bulb-2::before {
+    content: "\ea6c";
+}
+
+.mg-pointer::before {
+    content: "\ea6d";
+}
+
+.mg-addressbook::before {
+    content: "\ea6f";
+}
+
+.mg-copy::before {
+    content: "\ea70";
+}
+
+.mg-coins-alt::before {
+    content: "\ea74";
+}
+
+.mg-meter::before {
+    content: "\ea75";
+}
+
+.mg-monkey-wrench::before {
+    content: "\ea76";
+}
+
+.mg-calendar::before {
+    content: "\ea77";
+}
+
+.mg-dashboard::before {
+    content: "\ea78";
+}
+
+.mg-check-circle2::before {
+    content: "\ea79";
+}
+
+.mg-gas-alt::before {
+    content: "\ea7a";
+}
+
+.mg-lightning::before {
+    content: "\ea7b";
+}
+
+.mg-star::before {
+    content: "\ea7c";
+}
+
+.mg-minus-circle-alt::before {
+    content: "\ea7e";
+}
+
+.mg-minus-circle-::before {
+    content: "\ea7f";
+}
+
+.mg-times-circle-::before {
+    content: "\ea80";
+}
+
+.mg-circle-alt::before {
+    content: "\ea81";
+}
+
+.mg-circle-solid::before {
+    content: "\ea82";
+}
+
+.mg-check-circle-::before {
+    content: "\ea83";
+}
+
+.mg-check-circle-alt::before {
+    content: "\ea84";
+}
+
+.mg-plus-circle-::before {
+    content: "\ea85";
+}
+
+.mg-times-circle-alt::before {
+    content: "\ea86";
+}
+
+.mg-plus-circle-alt::before {
+    content: "\ea87";
+}
+
+.mg-phone-alt::before {
+    content: "\ea88";
+}
+
+.mg-gas::before {
+    content: "\ea89";
+}
+
+.mg-handshake-alt::before {
+    content: "\ea8b";
+}
+
+.mg-street-view-alt::before {
+    content: "\ea8d";
+}
+
+.mg-street-view-::before {
+    content: "\ea8e";
+}
+
+.mg-handshake::before {
+    content: "\ea8f";
+}
+
+.mg-phone::before {
+    content: "\ea91";
+}
+
+.mg-chevron-circle-down-alt::before {
+    content: "\ea92";
+}
+
+.mg-chevron-circle-right-alt::before {
+    content: "\ea93";
+}
+
+.mg-chevron-circle-down::before {
+    content: "\ea94";
+}
+
+.mg-chevron-circle-right::before {
+    content: "\ea95";
+}
+
+.mg-cricket::before {
+    content: "\ea96";
+}
+
+.mg-basketball-alt::before {
+    content: "\ea97";
+}
+
+.mg-bowling-alt::before {
+    content: "\ea98";
+}
+
+.mg-football-::before {
+    content: "\ea99";
+}
+
+.mg-football-alt::before {
+    content: "\ea9a";
+}
+
+.mg-tennis-::before {
+    content: "\ea9b";
+}
+
+.mg-tennis-alt::before {
+    content: "\ea9c";
+}
+
+.mg-volleyball::before {
+    content: "\ea9d";
+}
+
+.mg-volleyball-alt::before {
+    content: "\ea9e";
+}
+
+.mg-baseball-::before {
+    content: "\ea9f";
+}
+
+.mg-baseball-alt::before {
+    content: "\eaa0";
+}
+
+.mg-futbol::before {
+    content: "\eaa1";
+}
+
+.mg-futbol-alt::before {
+    content: "\eaa2";
+}
+
+.mg-basketball-::before {
+    content: "\eaa3";
+}
+
+.mg-cricket-alt::before {
+    content: "\eaa4";
+}
+
+.mg-basketball-hoop::before {
+    content: "\eaa5";
+}
+
+.mg-basketball-hoop-alt::before {
+    content: "\eaa6";
+}
+
+.mg-bowling::before {
+    content: "\eaa7";
+}
+
+.mg-ticket::before {
+    content: "\eaa8";
+}
+
+.mg-ticket-alt::before {
+    content: "\eaa9";
+}
+
+.mg-car-alt-light::before {
+    content: "\eaaa";
+}
+
+.mg-car-alt-solid::before {
+    content: "\eaab";
+}
+
+.mg-car-solid::before {
+    content: "\eaac";
+}
+
+.mg-car-side-solid::before {
+    content: "\eaad";
+}
+
+.mg-car-light::before {
+    content: "\eaae";
+}
+
+.mg-car-side-light::before {
+    content: "\eaaf";
+}
+
+.mg-check-circle2-alt::before {
+    content: "\eab0";
+}
+
+.mg-check-square-alt::before {
+    content: "\eab1";
+}
+
+.mg-check-square::before {
+    content: "\eab2";
+}
+
+.mg-tv-retro-alt::before {
+    content: "\eab3";
+}
+
+.mg-chevron-circle-left-alt::before {
+    content: "\eab4";
+}
+
+.mg-chevron-circle-left-solid::before {
+    content: "\eab5";
+}
+
+.mg-angle-left::before {
+    content: "\eab6";
+}
+
+.mg-angle-right::before {
+    content: "\eab7";
+}
+
+.mg-star2-alt::before {
+    content: "\eab8";
+}
+
+.mg-spinner::before {
+    content: "\eab9";
+}
+
+.mg-tv-retro-solid::before {
+    content: "\eaba";
+}
+
+.mg-comment-alt::before {
+    content: "\eabb";
+}
+
+.mg-comment2-alt::before {
     content: "\eabc";
+}
+
+.mg-comments-alt::before {
+    content: "\eabd";
+}
+
+.mg-comments::before {
+    content: "\eabe";
+}
+
+.mg-star2-half::before {
+    content: "\eabf";
+}
+
+.mg-comment2::before {
+    content: "\eac0";
+}
+
+.mg-star-alt::before {
+    content: "\eac1";
+}
+
+.mg-comment::before {
+    content: "\eac2";
+}
+
+.mg-star2::before {
+    content: "\eac3";
 }
 
