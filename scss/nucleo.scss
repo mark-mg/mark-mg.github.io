@@ -1,6 +1,6 @@
 /* --------------------------------
 
-Monster Icon Font Web Font
+MG-Icons Web Font
 Generated using nucleoapp.com
 
 -------------------------------- */
@@ -8,13 +8,13 @@ Generated using nucleoapp.com
 @import "mixins";
 
 @font-face {
-  font-family: 'Monster Icon Font';
-  src: url('#{$mg-font-path}/Monster Icon Font.eot');
-  src: url('#{$mg-font-path}/Monster Icon Font.eot') format('embedded-opentype'),
-    url('#{$mg-font-path}/Monster Icon Font.woff2') format('woff2'),
-    url('#{$mg-font-path}/Monster Icon Font.woff') format('woff'),
-    url('#{$mg-font-path}/Monster Icon Font.ttf') format('truetype'),
-    url('#{$mg-font-path}/Monster Icon Font.svg') format('svg');
+  font-family: 'MG-Icons';
+  src: url('#{$mg-font-path}/MG-Icons.eot');
+  src: url('#{$mg-font-path}/MG-Icons.eot') format('embedded-opentype'),
+    url('#{$mg-font-path}/MG-Icons.woff2') format('woff2'),
+    url('#{$mg-font-path}/MG-Icons.woff') format('woff'),
+    url('#{$mg-font-path}/MG-Icons.ttf') format('truetype'),
+    url('#{$mg-font-path}/MG-Icons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +25,7 @@ Generated using nucleoapp.com
 
 .icon {
   display: inline-block;
-  font: normal normal normal 1em/1 'Monster Icon Font';
+  font: normal normal normal 1em/1 'MG-Icons';
   speak: none;
   text-transform: none;
   /* Better Font Rendering */
