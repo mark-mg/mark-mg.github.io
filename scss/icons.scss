@@ -134,6 +134,18 @@ $mg-comment2: unicode(eac0);
 $mg-star-alt: unicode(eac1);
 $mg-comment: unicode(eac2);
 $mg-star2: unicode(eac3);
+$mg-smoke-light: unicode(eac4);
+$mg-smoke-solid: unicode(eac5);
+$mg-fire-alt-solid: unicode(eac6);
+$mg-fire-light: unicode(eac7);
+$mg-fire-alt-light: unicode(eac8);
+$mg-wifi-light: unicode(eac9);
+$mg-burn-solid: unicode(eaca);
+$mg-bolt-light: unicode(eacb);
+$mg-bolt-solid: unicode(eacc);
+$mg-fire-solid: unicode(eacd);
+$mg-burn-light: unicode(eace);
+$mg-wifi-solid: unicode(eacf);
 
 .mg-angle-down::before {
   content: $mg-angle-down;
@@ -649,5 +661,53 @@ $mg-star2: unicode(eac3);
 
 .mg-star2::before {
   content: $mg-star2;
+}
+
+.mg-smoke-light::before {
+  content: $mg-smoke-light;
+}
+
+.mg-smoke-solid::before {
+  content: $mg-smoke-solid;
+}
+
+.mg-fire-alt-solid::before {
+  content: $mg-fire-alt-solid;
+}
+
+.mg-fire-light::before {
+  content: $mg-fire-light;
+}
+
+.mg-fire-alt-light::before {
+  content: $mg-fire-alt-light;
+}
+
+.mg-wifi-light::before {
+  content: $mg-wifi-light;
+}
+
+.mg-burn-solid::before {
+  content: $mg-burn-solid;
+}
+
+.mg-bolt-light::before {
+  content: $mg-bolt-light;
+}
+
+.mg-bolt-solid::before {
+  content: $mg-bolt-solid;
+}
+
+.mg-fire-solid::before {
+  content: $mg-fire-solid;
+}
+
+.mg-burn-light::before {
+  content: $mg-burn-light;
+}
+
+.mg-wifi-solid::before {
+  content: $mg-wifi-solid;
 }
 

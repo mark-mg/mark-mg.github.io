@@ -662,3 +662,51 @@ icons
     content: "\eac3";
 }
 
+.mg-smoke-light::before {
+    content: "\eac4";
+}
+
+.mg-smoke-solid::before {
+    content: "\eac5";
+}
+
+.mg-fire-alt-solid::before {
+    content: "\eac6";
+}
+
+.mg-fire-light::before {
+    content: "\eac7";
+}
+
+.mg-fire-alt-light::before {
+    content: "\eac8";
+}
+
+.mg-wifi-light::before {
+    content: "\eac9";
+}
+
+.mg-burn-solid::before {
+    content: "\eaca";
+}
+
+.mg-bolt-light::before {
+    content: "\eacb";
+}
+
+.mg-bolt-solid::before {
+    content: "\eacc";
+}
+
+.mg-fire-solid::before {
+    content: "\eacd";
+}
+
+.mg-burn-light::before {
+    content: "\eace";
+}
+
+.mg-wifi-solid::before {
+    content: "\eacf";
+}
+
