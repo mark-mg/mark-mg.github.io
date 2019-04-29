@@ -718,3 +718,43 @@ Generated using nucleoapp.com
   content: "\eacf";
 }
 
+.mg-viber-brands::before {
+  content: "\ead0";
+}
+
+.mg-youtube-square-brands::before {
+  content: "\ead1";
+}
+
+.mg-hashtag-light::before {
+  content: "\ead2";
+}
+
+.mg-twitter-square-brands::before {
+  content: "\ead3";
+}
+
+.mg-instagram-brands::before {
+  content: "\ead4";
+}
+
+.mg-facebook-square-brands::before {
+  content: "\ead5";
+}
+
+.mg-linkedin-brands::before {
+  content: "\ead6";
+}
+
+.mg-facebook-messenger-brands::before {
+  content: "\ead7";
+}
+
+.mg-whatsapp-square-brands::before {
+  content: "\ead8";
+}
+
+.mg-whatsapp-brands::before {
+  content: "\ead9";
+}
+

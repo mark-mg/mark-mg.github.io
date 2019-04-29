@@ -146,6 +146,16 @@ $mg-bolt-solid: unicode(eacc);
 $mg-fire-solid: unicode(eacd);
 $mg-burn-light: unicode(eace);
 $mg-wifi-solid: unicode(eacf);
+$mg-viber-brands: unicode(ead0);
+$mg-youtube-square-brands: unicode(ead1);
+$mg-hashtag-light: unicode(ead2);
+$mg-twitter-square-brands: unicode(ead3);
+$mg-instagram-brands: unicode(ead4);
+$mg-facebook-square-brands: unicode(ead5);
+$mg-linkedin-brands: unicode(ead6);
+$mg-facebook-messenger-brands: unicode(ead7);
+$mg-whatsapp-square-brands: unicode(ead8);
+$mg-whatsapp-brands: unicode(ead9);
 
 .mg-angle-down::before {
   content: $mg-angle-down;
@@ -709,5 +719,45 @@ $mg-wifi-solid: unicode(eacf);
 
 .mg-wifi-solid::before {
   content: $mg-wifi-solid;
+}
+
+.mg-viber-brands::before {
+  content: $mg-viber-brands;
+}
+
+.mg-youtube-square-brands::before {
+  content: $mg-youtube-square-brands;
+}
+
+.mg-hashtag-light::before {
+  content: $mg-hashtag-light;
+}
+
+.mg-twitter-square-brands::before {
+  content: $mg-twitter-square-brands;
+}
+
+.mg-instagram-brands::before {
+  content: $mg-instagram-brands;
+}
+
+.mg-facebook-square-brands::before {
+  content: $mg-facebook-square-brands;
+}
+
+.mg-linkedin-brands::before {
+  content: $mg-linkedin-brands;
+}
+
+.mg-facebook-messenger-brands::before {
+  content: $mg-facebook-messenger-brands;
+}
+
+.mg-whatsapp-square-brands::before {
+  content: $mg-whatsapp-square-brands;
+}
+
+.mg-whatsapp-brands::before {
+  content: $mg-whatsapp-brands;
 }
 
