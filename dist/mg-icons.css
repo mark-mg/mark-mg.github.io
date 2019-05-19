@@ -7,12 +7,13 @@ Some Inhouse SVG creations
 
 -------------------------------- */
 @font-face {
-  font-family: 'MG-Icons';
-  src: url('fonts/mg-icons/MG-Icons.eot');
-  src: url('fonts/mg-icons/MG-Icons.eot') format('embedded-opentype'), url('fonts/mg-icons/MG-Icons.woff2') format('woff2'), url('fonts/mg-icons/MG-Icons.woff') format('woff'), url('fonts/mg-icons/MG-Icons.ttf') format('truetype'), url('fonts/mg-icons/MG-Icons.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MG-Icons';
+    src: url('fonts/mg-icons/MG-Icons.eot');
+    src: url('fonts/mg-icons/MG-Icons.eot') format('embedded-opentype'), url('fonts/mg-icons/MG-Icons.woff2') format('woff2'), url('fonts/mg-icons/MG-Icons.woff') format('woff'), url('fonts/mg-icons/MG-Icons.ttf') format('truetype'), url('fonts/mg-icons/MG-Icons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 /* --------------------------------
 
 icons
@@ -29,7 +30,7 @@ icons
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-} 
+}
 
 /* --------------------------------
 
@@ -251,7 +252,7 @@ Primary style
     color: #fff;
 }
 
- 
+
 
 /*------------------------
   font icons
@@ -773,3 +774,139 @@ Primary style
     content: "\eac3";
 }
 
+.mg-smoke-light::before {
+    content: "\eac4";
+}
+
+.mg-smoke-solid::before {
+    content: "\eac5";
+}
+
+.mg-fire-alt-solid::before {
+    content: "\eac6";
+}
+
+.mg-fire-light::before {
+    content: "\eac7";
+}
+
+.mg-fire-alt-light::before {
+    content: "\eac8";
+}
+
+.mg-wifi-light::before {
+    content: "\eac9";
+}
+
+.mg-burn-solid::before {
+    content: "\eaca";
+}
+
+.mg-bolt-light::before {
+    content: "\eacb";
+}
+
+.mg-bolt-solid::before {
+    content: "\eacc";
+}
+
+.mg-fire-solid::before {
+    content: "\eacd";
+}
+
+.mg-burn-light::before {
+    content: "\eace";
+}
+
+.mg-wifi-solid::before {
+    content: "\eacf";
+}
+
+.mg-viber-brands::before {
+    content: "\ead0";
+}
+
+.mg-youtube-square-brands::before {
+    content: "\ead1";
+}
+
+.mg-hashtag-light::before {
+    content: "\ead2";
+}
+
+.mg-twitter-square-brands::before {
+    content: "\ead3";
+}
+
+.mg-instagram-brands::before {
+    content: "\ead4";
+}
+
+.mg-facebook-square-brands::before {
+    content: "\ead5";
+}
+
+.mg-linkedin-brands::before {
+    content: "\ead6";
+}
+
+.mg-facebook-messenger-brands::before {
+    content: "\ead7";
+}
+
+.mg-whatsapp-square-brands::before {
+    content: "\ead8";
+}
+
+.mg-whatsapp-brands::before {
+    content: "\ead9";
+}
+
+
+.mg-sack-dollar-solid::before {
+    content: "\eada";
+  }
+  
+  .mg-sack-dollar-light::before {
+    content: "\eadb";
+  }
+  
+  .mg-usd-circle-solid::before {
+    content: "\eadc";
+  }
+  
+  .mg-usd-square-solid::before {
+    content: "\eadd";
+  }
+  
+  .mg-usd-square-light::before {
+    content: "\eade";
+  }
+  
+  .mg-box-usd-solid::before {
+    content: "\eadf";
+  }
+  
+  .mg-envelope-open-dollar-light::before {
+    content: "\eae0";
+  }
+  
+  .mg-dollar-sign-solid::before {
+    content: "\eae1";
+  }
+  
+  .mg-dollar-sign-light::before {
+    content: "\eae2";
+  }
+  
+  .mg-box-usd-light::before {
+    content: "\eae3";
+  }
+  
+  .mg-usd-circle-light::before {
+    content: "\eae4";
+  }
+  
+  .mg-envelope-open-dollar-solid::before {
+    content: "\eae5";
+  }

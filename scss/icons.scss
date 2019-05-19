@@ -156,6 +156,18 @@ $mg-linkedin-brands: unicode(ead6);
 $mg-facebook-messenger-brands: unicode(ead7);
 $mg-whatsapp-square-brands: unicode(ead8);
 $mg-whatsapp-brands: unicode(ead9);
+$mg-sack-dollar-solid: unicode(eada);
+$mg-sack-dollar-light: unicode(eadb);
+$mg-usd-circle-solid: unicode(eadc);
+$mg-usd-square-solid: unicode(eadd);
+$mg-usd-square-light: unicode(eade);
+$mg-box-usd-solid: unicode(eadf);
+$mg-envelope-open-dollar-light: unicode(eae0);
+$mg-dollar-sign-solid: unicode(eae1);
+$mg-dollar-sign-light: unicode(eae2);
+$mg-box-usd-light: unicode(eae3);
+$mg-usd-circle-light: unicode(eae4);
+$mg-envelope-open-dollar-solid: unicode(eae5);
 
 .mg-angle-down::before {
   content: $mg-angle-down;
@@ -759,5 +771,53 @@ $mg-whatsapp-brands: unicode(ead9);
 
 .mg-whatsapp-brands::before {
   content: $mg-whatsapp-brands;
+}
+
+.mg-sack-dollar-solid::before {
+  content: $mg-sack-dollar-solid;
+}
+
+.mg-sack-dollar-light::before {
+  content: $mg-sack-dollar-light;
+}
+
+.mg-usd-circle-solid::before {
+  content: $mg-usd-circle-solid;
+}
+
+.mg-usd-square-solid::before {
+  content: $mg-usd-square-solid;
+}
+
+.mg-usd-square-light::before {
+  content: $mg-usd-square-light;
+}
+
+.mg-box-usd-solid::before {
+  content: $mg-box-usd-solid;
+}
+
+.mg-envelope-open-dollar-light::before {
+  content: $mg-envelope-open-dollar-light;
+}
+
+.mg-dollar-sign-solid::before {
+  content: $mg-dollar-sign-solid;
+}
+
+.mg-dollar-sign-light::before {
+  content: $mg-dollar-sign-light;
+}
+
+.mg-box-usd-light::before {
+  content: $mg-box-usd-light;
+}
+
+.mg-usd-circle-light::before {
+  content: $mg-usd-circle-light;
+}
+
+.mg-envelope-open-dollar-solid::before {
+  content: $mg-envelope-open-dollar-solid;
 }
 

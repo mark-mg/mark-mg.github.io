@@ -758,3 +758,51 @@ Generated using nucleoapp.com
   content: "\ead9";
 }
 
+.mg-sack-dollar-solid::before {
+  content: "\eada";
+}
+
+.mg-sack-dollar-light::before {
+  content: "\eadb";
+}
+
+.mg-usd-circle-solid::before {
+  content: "\eadc";
+}
+
+.mg-usd-square-solid::before {
+  content: "\eadd";
+}
+
+.mg-usd-square-light::before {
+  content: "\eade";
+}
+
+.mg-box-usd-solid::before {
+  content: "\eadf";
+}
+
+.mg-envelope-open-dollar-light::before {
+  content: "\eae0";
+}
+
+.mg-dollar-sign-solid::before {
+  content: "\eae1";
+}
+
+.mg-dollar-sign-light::before {
+  content: "\eae2";
+}
+
+.mg-box-usd-light::before {
+  content: "\eae3";
+}
+
+.mg-usd-circle-light::before {
+  content: "\eae4";
+}
+
+.mg-envelope-open-dollar-solid::before {
+  content: "\eae5";
+}
+
